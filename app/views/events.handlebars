@@ -1,0 +1,70 @@
+<div class="site-content">
+  <article class="post page">
+
+    {{> page-header title="Events" backgroundUrl="/images/mag-gabbert-events.jpg"}}
+
+    <div class="post-content inner">
+
+      <h3 id="past_events">Upcoming Events</h3>
+      
+      {{#if upcomingEvents}}
+        <table class="standard-table">
+          <thead>
+            <tr>
+              <th>Event</th>
+              <th>Date</th>
+              <th>Attend</th>
+            </tr>
+          </thead>
+          <tbody>
+
+            {{#each upcomingEvents}}
+              <tr>
+                <td>
+                  <a href="#" rel="external nofollow" class="external external-icon">{{@key}}</a>
+                </td>
+                <td>{{this.date}}</td>
+              </tr>
+            {{/each}}
+
+          </tbody>
+        </table>
+      {{else}}
+        <p style="text-align: center; padding-bottom: 2em">There are no upcoming events</p>
+      {{/if}}
+
+      <h3 id="past_events">Past Events</h3>
+      
+      <table class="standard-table">
+        <thead>
+          <tr>
+            <th>Event</th>
+            <th>Where</th>
+            <th>Date</th>
+          </tr>
+        </thead>
+        <tbody>
+
+          {{#each pastEvents}}
+            <tr>
+              <td>
+                {{#if this.link}}
+                  <a href="{{this.link}}" rel="external nofollow" class="external external-icon">{{@key}}</a>
+                {{else}}
+                  {{@key}}
+                {{/if}}
+              </td>
+              <td>
+                {{this.place}}
+              </td>
+              <td>{{this.date}}</td>
+            </tr>
+          {{/each}}
+
+        </tbody>
+      </table>
+
+    </div>
+
+  </article>
+</div>

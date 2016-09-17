@@ -1,0 +1,132 @@
+<div class="site-content">
+  <article class="post page">
+
+    {{> page-header title="Publications" backgroundUrl="/images/mag-gabbert-publications.jpg"}}
+
+    <div class="post-content inner">
+      
+      <h3 id="poems">Poems</h3>
+      
+      <table class="standard-table">
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Publisher</th>
+            <th>Date</th>
+          </tr>
+        </thead>
+        <tbody>
+
+          {{#each poems}}
+            <tr>
+              <td>
+                {{#if this.link}}
+                  <a href="{{this.link}}" rel="external nofollow" class="external external-icon">{{@key}}</a>
+                {{else}}
+                  {{@key}}
+                {{/if}}
+              </td>
+              <td>{{this.publisher}}</td>
+              <td>{{this.date}}</td>
+            </tr>
+          {{/each}}
+
+        </tbody>
+      </table>
+
+      <br>
+
+      <h3 id="essays">Creative Nonfiction Essays</h3>
+      
+      <table class="standard-table">
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Publisher</th>
+            <th>Date</th>
+          </tr>
+        </thead>
+        <tbody>
+
+          {{#each essays}}
+            <tr>
+              <td>
+                {{#if this.link}}
+                  <a href="{{this.link}}" rel="external nofollow" class="external external-icon">{{@key}}</a>
+                {{else}}
+                  {{@key}}
+                {{/if}}
+              </td>
+              <td>{{this.publisher}}</td>
+              <td>{{this.date}}</td>
+            </tr>
+          {{/each}}
+
+        </tbody>
+      </table>
+
+      <br>
+
+      <h3 id="reviews">Reviews</h3>
+      
+      <table class="standard-table">
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Publisher</th>
+            <th>Date</th>
+          </tr>
+        </thead>
+        <tbody>
+
+          {{#each reviews}}
+            <tr>
+              <td>
+                {{#if this.link}}
+                  <a href="{{this.link}}" rel="external nofollow" class="external external-icon">{{@key}}</a>
+                {{else}}
+                  {{@key}}
+                {{/if}}
+              </td>
+              <td>{{this.publisher}}</td>
+              <td>{{this.date}}</td>
+            </tr>
+          {{/each}}
+
+        </tbody>
+      </table>
+
+      <br>
+
+      <h3 id="teaching_experience">Interviews</h3>
+      
+      <table class="standard-table">
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Producer</th>
+            <th>Date</th>
+          </tr>
+        </thead>
+        <tbody>
+
+          {{#each interviews}}
+              <tr>
+                <td>
+                  {{#if this.link}}
+                    <a href="{{this.link}}" rel="external nofollow" class="external external-icon">{{@key}}</a>
+                  {{else}}
+                    {{@key}}
+                  {{/if}}
+                </td>
+                <td>{{this.producer}}</td>
+                <td>{{this.date}}</td>
+              </tr>
+          {{/each}}
+
+        </tbody>
+      </table>
+
+    </div>
+  </article>
+</div>

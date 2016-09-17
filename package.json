@@ -1,0 +1,28 @@
+{
+  "name": "mag",
+  "version": "0.0.1",
+  "description": "Writing Portfolio",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --use_strict ./bin/www"
+  },
+  "keywords": [
+    "writing",
+    "poetry",
+    "portfolio"
+  ],
+  "engines": {
+    "node": "6.1.0"
+  },
+  "author": "Timothy Stepp",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "dotenv": "^2.0.0",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "instagram-node": "^0.5.8",
+    "js-yaml": "^3.6.1",
+    "nodemailer": "^2.6.0"
+  }
+}

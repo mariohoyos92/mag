@@ -1,0 +1,82 @@
+<div class="site-content">
+  <article class="post page">
+
+    {{> page-header title="About" backgroundUrl="/images/mag-gabbert-about.jpg"}}
+
+    <div class="post-content inner">
+      <p>Mag Gabbert is a PhD candidate in creative writing at Texas Tech University, and she previously received her MFA from The University of California at Riverside. Her nonfiction essays and poems have been published or are forthcoming in journals including <i>32 Poems</i>, <i>The Rattling Wall</i>, <i>The Rumpus</i>, <i>The Nervous Breakdown</i>, <i>LIT Magazine</i>, <i>Sugar House Review</i>, and <i>Sonora Review</i>, among other venues. Mag currently teaches literature and creative writing courses at Texas Tech and serves as an associate editor for <i>Iron Horse Literary Review</i>.</p>
+
+      <p style="padding-bottom: 1em;">
+        <a class="button" id="cv_download" href="/docs/mag-gabbert-cv.pdf">Download Mag's CV</a>
+      </p>
+
+      <h3 id="teaching_experience">Teaching Experience</h3>
+      
+      <table class="standard-table">
+        <thead>
+          <tr>
+            <th>Position</th>
+            <th>Employer</th>
+            <th>Institution</th>
+            <th>Date</th>
+          </tr>
+        </thead>
+        <tbody>
+
+          {{#each experience.teaching as |position title|}}
+            
+            {{#each position}}
+              <tr>
+                <td>{{title}}</td>
+                <td>{{@key}}</td>
+                <td>{{this.institution}}</td>
+                <td>{{this.date}}</td>
+              </tr>
+            {{/each}}
+          {{/each}}
+
+        </tbody>
+      </table>
+
+      <br>
+
+      <h3 id="editorial_experience">Editorial Experience</h3>
+      
+      <table class="standard-table">
+        <thead>
+          <tr>
+            <th>Position</th>
+            <th>Employer</th>
+            <th>Institution</th>
+            <th>Date</th>
+          </tr>
+        </thead>
+        <tbody>
+
+          {{#each experience.editorial as |position title|}}
+            
+            {{#each position}}
+              <tr>
+                <td>{{title}}</td>
+                <td>{{@key}}</td>
+                <td>{{this.institution}}</td>
+                <td>{{this.date}}</td>
+              </tr>
+            {{/each}}
+          {{/each}}
+
+        </tbody>
+      </table>
+
+      <br>
+
+      <h3 id="awards">Awards &amp; Recognitions</h3>
+
+      <ul>
+        {{#each awards}}
+          <li>{{this}}</li>
+        {{/each}}
+      </ul>
+    </div>
+  </article>
+</div>

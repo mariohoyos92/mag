@@ -1,0 +1,25 @@
+<html>
+  {{> head}}
+
+  <body class="{{bodyClass}}">
+    <div id="page" class="site">
+      {{> nav}}
+      
+      <main class="site-main" role="main">
+
+          {{{body}}}
+
+      </main><!-- .site-main -->
+
+      {{> sidebar}}
+
+      {{> footer-widgets}}
+
+      {{> footer}}
+        
+      <div class="overlay"></div>
+    </div><!-- #page -->
+
+    {{> scripts}}
+  </body>
+</html>
