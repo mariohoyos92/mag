@@ -1228,7 +1228,7 @@ pre .storage {
   background-color: transparent;
   border-color: #fff;
   color: #fff;
-  border: 2px solid #fff;
+  border: 2px solid #222;
   background-color: transparent;
   display: inline-block;
   margin-bottom: 5px;
@@ -1495,7 +1495,29 @@ pre .storage {
 }
 
 .cover-bg {
-  opacity: 0.618;
+  opacity: 1.0;
+}
+
+
+.grid-item.bright .post-bg {
+  opacity: 1.0;
+  color: #444;
+  box-shadow: 0px 0px 10px #ccc;
+}
+
+.grid-item.bright .post-title {
+  color: #444;
+  /*text-shadow: 0px 0px 2px #fff;*/
+}
+
+.grid-item.bright .post-meta {
+  color: #444;
+  text-shadow: 0px 0px 1px #fff;
+}
+
+.grid-item.bright .tag-links span {
+  color: #444;
+  background: rgba(255, 255, 255, 0.618);
 }
 
 .cover-content {

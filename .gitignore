@@ -6,3 +6,5 @@ node_modules/
 .env
 *.log
 notes/
+.idea
+config/environment
