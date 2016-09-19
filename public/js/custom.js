@@ -8,17 +8,17 @@
 
   $(document).ready(function(){
 
-    $("#nav_contact").on('click', "a", function(event){
+    $(".contact-link").on('click', function(event){
       event.preventDefault();
       $('body').toggleClass('sidebar-opened');
-      $('.sidebar').scrollTo("#contact_name", 200);
+      $('.sidebar .sidebar-scrollable').scrollTo("#contact_name", 200);
       $("#contact_name").focus();
     });
 
     $(".subscribe-link").on('click', function(event){
       event.preventDefault();
       $('body').toggleClass('sidebar-opened');
-      $("#subscribe_email").focus()
+      $("#subscribe_email").focus();
     });
 
     var removeMessages = function(domId) {
