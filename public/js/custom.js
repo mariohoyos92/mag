@@ -21,26 +21,106 @@
       $("#subscribe_email").focus()
     });
 
+    var removeMessages = function(domId) {
+      $('#' + domId + ' .messages li').remove();
+      $('#' + domId + ' .messages').hide();
+    };
+
+    var clearInputs = function(domId) {
+      $('#' + domId + ' input').val('');
+      $('#' + domId + ' textarea').val('');
+    };
+
+    var clearLoading = function(domId) {
+      $('#' + domId + ' .messages li.loading').remove();
+    };
+
     $("#contact_submit").on('click', function(event) {
+      removeMessages('contact_form');
+
       var submission = JSON.stringify({
         contact_name: $('#contact_name').val(),
         contact_email: $('#contact_email').val(),
         contact_body: $('#contact_body').val()
       });
 
+      $('#contact_form .messages').show().append('<li class="loading"><i class="fa fa-spinner fa-spin"></i></li>');
+
+
+      var resetForm = function() {
+        removeMessages('contact_form');
+        clearInputs('contact_form');
+      };
+
+      var displaySuccess = function() {
+        $('#contact_form .messages').append('<li class="success"><i class="fa fa-check-circle"></i>Your message has been sent.</li>').fadeIn('fast', function(){
+            setTimeout(function() { debugger; resetForm() }, 3000);
+          });
+      };
+
+      var displayError = function(error) {
+        $('#contact_form .messages').show().append('<li class="error"><i class="fa fa-exclamation-circle"></i>' + error.message + '</li>');
+      };
+
       $.ajax({
         type: 'POST',
         url: '/contact_form',
         contentType: 'application/json',
         dataType: 'json',
-        data: submission,
-        success: function() {
-          alert('success')
-        },
-        error: function() {
-          alert('error')
-        }
+        data: submission
+      }).done(function() {
+        clearInputs('contact_form');
+        displaySuccess();
+      }).fail(function(xhr, status, error) {
+        let err = JSON.parse(xhr.responseJSON);
+        removeMessages('contact_form');
+        displayError(err);
+      }).always(function(xhr, status){
+        clearLoading('contact_form')
+      })
+    });
+
+    $("#newsletter_submit").on('click', function(event) {
+      removeMessages('newsletter_form');
+
+      var submission = JSON.stringify({
+        email: $('#newsletter_email').val()
       });
+
+      $('#newsletter_form .messages').show().append('<li class="loading"><i class="fa fa-spinner fa-spin"></i></li>');
+
+      var resetForm = function() {
+        removeMessages('newsletter_form');
+        clearInputs('newsletter_form');
+      };
+
+      var displaySuccess = function() {
+        $('#newsletter_form .messages').append('<li class="success"><i class="fa fa-check-circle"></i>Signup Success.</li>')
+            .fadeIn('fast', function(){
+            setTimeout(function() { resetForm() }, 3000);
+          });
+      };
+
+      var displayError = function(error) {
+        $('#newsletter_form .messages').show().append('<li class="error"><i class="fa fa-exclamation-circle"></i>' + error.message + '</li>');
+      };
+
+      $.ajax({
+        type: 'POST',
+        url: '/newsletter_form',
+        contentType: 'application/json',
+        dataType: 'json',
+        data: submission
+      }).done(function() {
+        clearInputs('newsletter_form');
+        displaySuccess();
+      }).fail(function(xhr, status, error) {
+        let err = JSON.parse(xhr.responseJSON);
+        removeMessages('newsletter_form');
+        displayError(err);
+      }).always(function(xhr, status){
+        clearLoading('newsletter_form')
+      })
     });
 
     // Responsive video embeds
@@ -109,9 +189,9 @@
     }
 
     // Display recent posts and tagcloud
-    if ( $('.recent-posts').length || $('.tagcloud').length ) {
-      parseRss();
-    }
+    //if ( $('.recent-posts').length || $('.tagcloud').length ) {
+    //  parseRss();
+    //}
 
   });
 

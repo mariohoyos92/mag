@@ -1,38 +1,55 @@
-/**
- * Table of Contents
- * ----------------------------------------------------------------------------
- * 0. Icons
- * 1. Reset
- * 2. General
- * 3. Structure
- * 4. Site Header
- * 5. Site Navigation
- * 6. Sidebar
- * 7. Content
- *   7.1 Posts and Pages
- *   7.2 Comments
- *   7.3 Paging Navigation
- *   7.4 Post Navigation
- * 8. Footer Widget Area
- * 9. Widgets
- * 10. Site Footer
- * 11. Media Queries
-*/
-
-/**
- * 0. Icons
- *
- * Font Awesome by Dave Gandy | http://fontawesome-webfont.io
- * ----------------------------------------------------------------------------
- */
-
 .footnote {
   font-size: 0.8em;
   opacity: 0.618;
 }
-#contact_form input {
+
+.sidebar-form .messages {
+  display: none;
+  width: 100%;
+  list-style: none;
+  margin-bottom: 0.618em;
+  padding: 0;
+}
+
+.sidebar-form .messages li {
+  /*width: 80%;*/
+  padding: 1em;
+  border: 1px solid #333;
+  border-radius: 0.618em;
+  padding: 0.382em;
+  margin-bottom: 0.618em;
+}
+
+.sidebar-form .messages li.error {
+  border-color: red;
+  color: red;
+}
+
+.sidebar-form .messages li.success {
+  border-color: greenyellow;
+  color: green;
+}
+
+.sidebar-form .messages li.loading {
+  border: none;
+  color: #777;
+  padding: 0;
+}
+
+.sidebar-form .messages li i.fa {
+  margin-right: 0.618em;
+}
+
+#contact_form textarea,
+#newsletter_form textarea {
+  text-transform: none;
+}
+
+#contact_form input,
+#newsletter_form input {
   margin-bottom: 1em;
   width: 61.8%;
+  text-transform: none;
 }
 
 #contact_form.form-group {
@@ -55,7 +72,7 @@
   font-style: normal;
 }
 
-[class^="icon-"], [class*=" icon-"] {
+[class^="icon-"], [class*=" icon-"], .fa {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'fontawesome' !important;
   speak: none;
@@ -174,6 +191,9 @@
 }
 .icon-mixcloud:before {
   content: "\f289";
+}
+.icon-spinner:before {
+  content: "\f110";
 }
 
 /**
@@ -1494,7 +1514,7 @@ pre .storage {
   top: 0;
 }
 
-.cover-bg {
+.cover-bg.light {
   opacity: 1.0;
 }
 

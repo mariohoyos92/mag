@@ -8,31 +8,26 @@
         </ul><!-- .menu -->
       </nav><!-- .site-navigation -->
 
-      {{!-- <aside class="widget widget-text">
-        <h2 class="widget-title">About mag</h2>
-        <p>The sexiest writer alive. Queen of the bears and ruler of vodka swans.. Unlike other design blogs, mag reflects an intimately curated ensemble of experiences, projects and products that unanimously stand for beauty, craftsmanship and sophistication.</p>
-      </aside><!-- .widget --> --}}
-
       <aside class="widget widget-subscribe">
         <h2 class="widget-title">Mag's Newsletter</h2>
         <p>Enter your email address to subscribe to updates about Mag Gabbert's writings, publications and events.</p>
-        <form method="post" action="/subscribe/" class="gh-subscribe-form">
 
-          <div class="form-group">
-            <input id="subscribe_email" class="subscribe-email" type="email" name="email" placeholder="Your email address">
-          </div>
-          <button class="" type="submit">Subscribe</button>
-        </form>
+        <div id="newsletter_form" class="form-group sidebar-form">
+          <ul class="messages"></ul>
+          <input id="newsletter_email" class="subscribe-email" type="email" name="email" placeholder="* Your email address">
+        </div>
+        <button id="newsletter_submit">Subscribe</button>
       </aside><!-- .widget -->
 
       <aside class="widget widget-text">
         <h2 class="widget-title">Contact</h2>
         <p>Wanna chat? Contact Mag to discuss your reading or panel inquiry, editorial or mentorship inquiry, poem, essay, or review solicitation, or regarding any other literary matter.</p>
         
-        <div class="form-group" id="contact_form">
+        <div id="contact_form" class="form-group sidebar-form">
+          <ul class="messages"></ul>
           <input class="" type="text" name="contact_name" id="contact_name" placeholder="Your Name"><br>
-          <input class="" type="text" name="contact_email" id="contact_email" placeholder="Your Email"><br>
-          <textarea class="contact-body" id="contact_body" type="text" name="contact_message" placeholder="Write your message here..."></textarea>
+          <input class="" type="text" name="contact_email" id="contact_email" placeholder="* Your email address"><br>
+          <textarea class="contact-body" id="contact_body" type="text" name="contact_message" placeholder="* Write your message here..."></textarea>
         </div>
         <button id="contact_submit" type="submit">Send</button>
       </aside><!-- .widget -->
