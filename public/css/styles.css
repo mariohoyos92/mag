@@ -1,3 +1,7 @@
+/* lightGreen: #40FF40
+   primaryGreen: #54CC14
+*/
+
 .footnote {
   font-size: 0.8em;
   opacity: 0.618;
@@ -12,7 +16,6 @@
 }
 
 .sidebar-form .messages li {
-  /*width: 80%;*/
   padding: 1em;
   border: 1px solid #333;
   border-radius: 0.618em;
@@ -26,8 +29,10 @@
 }
 
 .sidebar-form .messages li.success {
-  border-color: greenyellow;
-  color: green;
+  border-color: #40FF40;
+  background: #54CC14;
+  color: #fff;
+  text-shadow: 1px 1px 1px #aaa;
 }
 
 .sidebar-form .messages li.loading {
