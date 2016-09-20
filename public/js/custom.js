@@ -174,19 +174,19 @@
     // }
 
     // Display Instagram feed
-    if ( typeof instagram_user_id !== 'undefined' && typeof instagram_access_token !== 'undefined' ) {
-      if ( $('#instafeed').length ) {
-        var userFeed = new Instafeed({
-          get: 'user',
-          userId: instagram_user_id,
-          accessToken: instagram_access_token,
-          limit: 6,
-          resolution: 'low_resolution',
-          template: '<div class="instagram-item"><a target="_blank" href="{{link}}"><img src="{{image}}" /></a></div>'
-        });
-        userFeed.run();
-      }
-    }
+    // if ( typeof instagram_user_id !== 'undefined' && typeof instagram_access_token !== 'undefined' ) {
+    //   if ( $('#instafeed').length ) {
+    //     var userFeed = new Instafeed({
+    //       get: 'user',
+    //       userId: instagram_user_id,
+    //       accessToken: instagram_access_token,
+    //       limit: 6,
+    //       resolution: 'low_resolution',
+    //       template: '<div class="instagram-item"><a target="_blank" href="{{link}}"><img src="{{image}}" /></a></div>'
+    //     });
+    //     userFeed.run();
+    //   }
+    // }
 
     // Display recent posts and tagcloud
     //if ( $('.recent-posts').length || $('.tagcloud').length ) {
