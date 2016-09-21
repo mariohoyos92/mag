@@ -26,5 +26,10 @@
     "instagram-node": "^0.5.8",
     "js-yaml": "^3.6.1",
     "nodemailer": "^2.6.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-uglify": "^2.0.0",
+    "pump": "^1.0.1"
   }
 }
