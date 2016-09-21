@@ -1,3 +1,10 @@
+Oxycodone:
+  publisher: Sugar House Review
+  date: 2016
+  type: poetry
+  tags:
+    - poetry
+
 The Taste of Blood:
   publisher: Sugar House Review
   date: 2016
@@ -13,6 +20,12 @@ Blood Pressure:
   tags: 
     - poetry
   
+Death of a Pigeon:
+  publisher: New Plains Review
+  date: 2016
+  type: poetry
+  tags:
+    - poetry
 
 On the Anniversary of the Death of JFK:
   publisher: LIT Magazine

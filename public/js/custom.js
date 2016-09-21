@@ -72,7 +72,7 @@
         clearInputs('contact_form');
         displaySuccess();
       }).fail(function(xhr, status, error) {
-        let err = JSON.parse(xhr.responseJSON);
+        var err = JSON.parse(xhr.responseJSON);
         removeMessages('contact_form');
         displayError(err);
       }).always(function(xhr, status){
@@ -115,7 +115,7 @@
         clearInputs('newsletter_form');
         displaySuccess();
       }).fail(function(xhr, status, error) {
-        let err = JSON.parse(xhr.responseJSON);
+        var err = JSON.parse(xhr.responseJSON);
         removeMessages('newsletter_form');
         displayError(err);
       }).always(function(xhr, status){
