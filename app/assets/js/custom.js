@@ -10,7 +10,10 @@
 
     $(".contact-link").on('click', function(event){
       event.preventDefault();
-      $('body').toggleClass('sidebar-opened');
+      if(!$('body').hasClass('sidebar-opened')) {
+        $('body').toggleClass('sidebar-opened');
+      }
+
       $('.sidebar .sidebar-scrollable').scrollTo("#contact_name", 200);
       $("#contact_name").focus();
     });
