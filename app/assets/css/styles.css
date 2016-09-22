@@ -2578,6 +2578,10 @@ pre .storage {
     background-position: 70% 0%;
   }
 
+  .cover .cover-bg.left-shift {
+    background-position: 70% 0%;
+  }
+
   .hero-wrap {
     border-left: 0;
     padding-left: 0;
