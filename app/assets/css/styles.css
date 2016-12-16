@@ -1283,6 +1283,10 @@ pre .storage {
   text-transform: uppercase;
 }
 
+.post-meta .fb-root {
+  height: 40px;
+}
+
 .post-meta .reading-time {
   bottom: 40px;
   position: absolute;
