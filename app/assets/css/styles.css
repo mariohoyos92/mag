@@ -246,6 +246,7 @@ html {
 
 body {
   margin: 0;
+  padding-top: 83px;
 }
 
 a {
@@ -970,17 +971,15 @@ pre .storage {
   background-color: #fff;
   padding-bottom: 25px;
   padding-top: 25px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 33px;
+  z-index: 4000;
 }
 
 .site-header .inner-wide {
   position: relative;
-}
-
-.post-template .site-header,
-.page-template .site-header {
-  position: absolute;
-  width: 100%;
-  z-index: 1;
 }
 
 .site-title {
@@ -2320,8 +2319,11 @@ pre .storage {
 @media only screen and (max-width: 860px) {
   .post-template .site-header,
   .page-template .site-header {
-    position: static;
-    width: auto;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 33px;
+    z-index: 4000;
   }
 
   .site-header .site-navigation {
