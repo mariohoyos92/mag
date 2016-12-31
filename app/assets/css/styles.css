@@ -246,6 +246,9 @@ html {
 
 body {
   margin: 0;
+}
+
+body.home-template {
   padding-top: 83px;
 }
 
