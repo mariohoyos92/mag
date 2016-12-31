@@ -1848,8 +1848,11 @@ pre .storage {
   display: table-cell;
   padding: 60px 60px 30px;
   width: 33.333%;
-  height: 360px;
-  overflow: scroll;
+}
+
+.footer-col .widget {
+    max-height: 360px;
+    overflow: scroll;
 }
 
 .footer-widgets .middle{
