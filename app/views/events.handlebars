@@ -6,32 +6,11 @@
     <div class="post-content inner">
 
       <h3 id="past_events">Upcoming Events</h3>
+
+      <p>Join Mag for the second spring installment of the LHUCA reading series! The evening will be a celebration and discussion of literature as a force for social change, an effort toward building up language and encouraging writers and non-writers alike to rally for a world full of hope and connection. As George Orwell famously put it, “One ought to recognize that present political chaos is connected with the decay of language.” The evening's presenters will include Christopher Soto, Mag Gabbert, and Justice Taylor, and a reception will immediately follow the event.</p> 
+      <b>When:</b> Friday, March 31st 7:00pm<br/>
+      <b>Where:</b> Louise Hopkins Underwood Center for the Arts (LHUCA) in the Firehouse Theater of the main building. The street address is 511 Avenue K, Lubbock, TX 79401
       
-      {{#if upcomingEvents}}
-        <table class="standard-table">
-          <thead>
-            <tr>
-              <th>Event</th>
-              <th>Date</th>
-              <th>Attend</th>
-            </tr>
-          </thead>
-          <tbody>
-
-            {{#each upcomingEvents}}
-              <tr>
-                <td>
-                  <a href="#" rel="external nofollow" class="external external-icon">{{@key}}</a>
-                </td>
-                <td>{{this.date}}</td>
-              </tr>
-            {{/each}}
-
-          </tbody>
-        </table>
-      {{else}}
-        <p style="text-align: center; padding-bottom: 2em">There are no upcoming events</p>
-      {{/if}}
 
       <h3 id="past_events">Past Events</h3>
       
