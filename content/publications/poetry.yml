@@ -1,3 +1,17 @@
+Grief:
+  publisher: White Stag
+  date: 2017
+  type: poetry
+  tags:
+    - poetry
+
+Recovery:
+  publisher: White Stag
+  date: 2017
+  type: poetry
+  tags:
+    - poetry
+
 Robin:
   publisher: "Fiolet & Wing (Press Anthology)"
   date: 2017
@@ -99,4 +113,3 @@ Pink Moon:
   type: poetry
   tags: 
     - poetry
-    

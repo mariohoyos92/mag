@@ -1,50 +1,63 @@
 <div class="site-content">
-  <article class="post page">
+	<article class="post page">
 
-    {{> page-header title="Events" backgroundUrl="/images/mag-gabbert-events.jpg"}}
+		{{> page-header title="Events" backgroundUrl="/images/mag-gabbert-events.jpg"}}
 
-    <div class="post-content inner">
+		<div class="post-content inner">
 
-      <h3 id="past_events">Upcoming Events</h3>
+			<h3 id="past_events">Upcoming Events</h3>
 
-      <p>Join Mag for the second spring installment of the LHUCA reading series! The evening will be a celebration and discussion of literature as a force for social change, an effort toward building up language and encouraging writers and non-writers alike to rally for a world full of hope and connection. As George Orwell famously put it, “One ought to recognize that present political chaos is connected with the decay of language.” The evening's presenters will include Christopher Soto, Mag Gabbert, and Justice Taylor, and a reception will immediately follow the event.</p> 
-      <b>When:</b> Friday, March 31st 7:00pm<br/>
-      <b>Where:</b> Louise Hopkins Underwood Center for the Arts (LHUCA) in the Firehouse Theater of the main building. The street address is 511 Avenue K, Lubbock, TX 79401
-      <br />
-      <br />
+			<div style="min-height: 565px; overflow: auto; margin-bottom: 2em;">
+				<img src="/images/deep-ellum-lithop-2017.jpg" alt="Deep Ellum LitHop 2017"
+						 style="margin-right: 2em; border: 1px solid #eeeeee; float: left"/>
 
-      <h3 id="past_events">Past Events</h3>
-      
-      <table class="standard-table">
-        <thead>
-          <tr>
-            <th>Event</th>
-            <th>Where</th>
-            <th>Date</th>
-          </tr>
-        </thead>
-        <tbody>
 
-          {{#each pastEvents}}
-            <tr>
-              <td>
-                {{#if this.link}}
-                  <a href="{{this.link}}" rel="external nofollow" class="external external-icon">{{@key}}</a>
-                {{else}}
-                  {{@key}}
-                {{/if}}
-              </td>
-              <td>
-                {{this.place}}
-              </td>
-              <td>{{this.date}}</td>
-            </tr>
-          {{/each}}
+				<div style="float: left; min-width: 220px; max-width: 300px; margin-top: 2em;">
+					<p>Join Mag for the second annual <b>Deep Ellum LitHop</b>. Mag will be reading alongside Logen Cure, Courtney
+						Marie, Paul Koniecki and others for the Pegasus Reading Series hosted by Wordspace. For more information
+						about this year's LitHop events, click <a href="https://www.facebook.com/events/129649400912879/">here.</a>
+					</p>
+					<b>When:</b> Saturday, June 3rd 9:00pm<br/>
+					<b>Where:</b> Kettle Art Gallery (2650 Main Street Dallas, TX)
+					<br/>
+					<br/>
+				</div>
+			</div>
 
-        </tbody>
-      </table>
+			<div>
+				<h3 id="past_events">Past Events</h3>
 
-    </div>
+				<table class="standard-table">
+					<thead>
+					<tr>
+						<th>Event</th>
+						<th>Where</th>
+						<th>Date</th>
+					</tr>
+					</thead>
+					<tbody>
 
-  </article>
+					{{#each pastEvents}}
+						<tr>
+							<td>
+								{{#if this.link}}
+									<a href="{{this.link}}" rel="external nofollow" class="external external-icon">{{@key}}</a>
+								{{else}}
+									{{@key}}
+								{{/if}}
+							</td>
+							<td>
+								{{this.place}}
+							</td>
+							<td>{{this.date}}</td>
+						</tr>
+					{{/each}}
+
+					</tbody>
+				</table>
+			</div>
+
+		</div>
+
+	</article>
 </div>
