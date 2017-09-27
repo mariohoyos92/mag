@@ -1,3 +1,17 @@
+David:
+  publisher: 1932 Quarterly
+  date: 2017
+  type: poetry
+  tags:
+    - poetry
+
+Toucan:
+  publisher: Cleaver Magazine
+  date: 2017
+  type: poetry
+  tags:
+    - poetry
+
 Grief:
   publisher: White Stag
   date: 2017
