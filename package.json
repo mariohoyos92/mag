@@ -4,7 +4,7 @@
   "description": "Writing Portfolio",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node --use_strict ./bin/www"
+    "start": "node main.js"
   },
   "keywords": [
     "writing",

@@ -1,11 +1,14 @@
-var keystone = require('keystone');
-var Types = keystone.Field.Types;
+'use strict';
+
+const keystone = require('keystone');
+const Types = keystone.Field.Types;
+
 
 /**
  * User Model
  * ==========
  */
-var User = new keystone.List('User');
+const User = new keystone.List('User');
 
 User.add({
 	name: { type: Types.Name, required: true, index: true },

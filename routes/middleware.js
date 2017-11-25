@@ -1,5 +1,7 @@
-var _ = require('lodash');
 
+'use strict';
+
+const _ = require('lodash');
 
 /**
 	Initialises the standard view locals
@@ -19,7 +21,7 @@ exports.initLocals = function (req, res, next) {
 	Fetches and clears the flashMessages before a view is rendered
 */
 exports.flashMessages = function (req, res, next) {
-	var flashMessages = {
+	const flashMessages = {
 		info: req.flash('info'),
 		success: req.flash('success'),
 		warning: req.flash('warning'),

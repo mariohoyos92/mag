@@ -1,12 +1,14 @@
-var keystone = require('keystone');
-var Types = keystone.Field.Types;
+'use strict';
+
+const keystone = require('keystone');
+const Types = keystone.Field.Types;
 
 /**
  * Post Model
  * ==========
  */
 
-var Post = new keystone.List('Post', {
+const Post = new keystone.List('Post', {
 	map: { name: 'title' },
 	autokey: { path: 'slug', from: 'title', unique: true },
 });
