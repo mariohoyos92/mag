@@ -1,3 +1,45 @@
+Trouble Sleeping:
+  publisher: phoebe
+  date: 2018
+  type: poetry
+  tags:
+    - poetry
+
+Nightmare:
+  publisher: phoebe
+  date: 2018
+  type: poetry
+  tags:
+    - poetry
+
+Toilet:
+  publisher: Guesthouse
+  date: 2018
+  type: poetry
+  tags:
+    - poetry
+
+Birthday Cake:
+  publisher: Guesthouse
+  date: 2018
+  type: poetry
+  tags:
+    - poetry
+
+Dark Matter:
+  publisher: Carve Magazine
+  date: 2018
+  type: poetry
+  tags:
+    - poetry
+
+On the Anniversary of the Death of JFK:
+  publisher: LIT Magazine
+  date: 2018
+  type: poetry
+  tags:
+    - poetry
+
 David:
   publisher: 1932 Quarterly
   date: 2017
@@ -9,6 +51,7 @@ Toucan:
   publisher: Cleaver Magazine
   date: 2017
   type: poetry
+  link: "https://www.cleavermagazine.com/toucan-by-mag-gabbert/"
   tags:
     - poetry
 
@@ -45,17 +88,17 @@ The Taste of Blood:
   publisher: Sugar House Review
   date: 2016
   type: poetry
-  tags: 
+  tags:
     - poetry
-  
+
 
 Blood Pressure:
   publisher: Sugar House Review
   date: 2016
   type: poetry
-  tags: 
+  tags:
     - poetry
-  
+
 Death of a Pigeon:
   publisher: New Plains Review
   date: 2016
@@ -63,37 +106,29 @@ Death of a Pigeon:
   tags:
     - poetry
 
-On the Anniversary of the Death of JFK:
-  publisher: LIT Magazine
-  date: 2016
-  type: poetry
-  tags: 
-    - poetry
-  
-
 Your Death Felt Like:
   publisher: Sonora Review
   date: 2016
   type: poetry
-  tags: 
+  tags:
     - poetry
-  
+
 
 Discarded:
   publisher: Sheepshead Review
   date: "2016"
   type: poetry
-  tags: 
+  tags:
     - poetry
-  
+
 
 Baby:
   publisher: 32 Poems
   date: "2015"
   type: poetry
-  tags: 
+  tags:
     - poetry
-  
+
 
 At the Country & Western Dance Hall:
   publisher: The Doctor T.J. Eckleburg Review
@@ -101,29 +136,29 @@ At the Country & Western Dance Hall:
   type: poetry
   source_type: web
   link: "http://thedoctortjeckleburgreview.com/works/poetry/poetry-at-the-country-western-dance-hall/"
-  tags: 
+  tags:
     - poetry
-  
+
 
 Sturgeon Moon:
   publisher: The Rattling Wall 5
   date: "2015"
   type: poetry
-  tags: 
+  tags:
     - poetry
-  
+
 
 Strawberry Moon:
   publisher: The Rattling Wall 5
   date: "2015"
   type: poetry
-  tags: 
+  tags:
     - poetry
-  
+
 
 Pink Moon:
   publisher: The Rattling Wall 5
   date: "2015"
   type: poetry
-  tags: 
+  tags:
     - poetry
