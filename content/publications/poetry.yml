@@ -1,12 +1,36 @@
-Trouble Sleeping:
-  publisher: phoebe
+Snow Globe:
+  publisher: The Boiler Journal
+  date: 2018
+  link: "https://theboilerjournal.com/2018/02/27/mag-gabbert/"
+  type: poetry
+  tags:
+    - poetry
+
+Fever:
+  publisher: Underblong
+  date: 2018
+  link: "http://underblong.com/post/171577744902/fever-i-cannot-make-lunch-today-i-need-a"
+  type: poetry
+  tags:
+    - poetry
+
+Donut:
+  publisher: Underblong
+  date: 2018
+  link: "http://underblong.com/post/171577719507/donut-im-eating-one-again-even-though-i-hate"
+  type: poetry
+  tags:
+    - poetry
+
+Rabbit Test:
+  publisher: Whiskey Island
   date: 2018
   type: poetry
   tags:
     - poetry
 
-Nightmare:
-  publisher: phoebe
+Fishbowl:
+  publisher: Whiskey Island
   date: 2018
   type: poetry
   tags:
@@ -26,16 +50,32 @@ Birthday Cake:
   tags:
     - poetry
 
-Dark Matter:
-  publisher: Carve Magazine
+On the Anniversary of the Death of JFK:
+  publisher: LIT Magazine
   date: 2018
   type: poetry
   tags:
     - poetry
 
-On the Anniversary of the Death of JFK:
-  publisher: LIT Magazine
-  date: 2018
+Dark Matter:
+  publisher: Carve Magazine
+  date: 2017
+  type: poetry
+  tags:
+    - poetry
+
+Trouble Sleeping:
+  publisher: phoebe
+  date: 2017
+  link: "https://issuu.com/phoebejournal/docs/phoebe-47-1"
+  type: poetry
+  tags:
+    - poetry
+
+Nightmare:
+  publisher: phoebe
+  date: 2017
+  link: "https://issuu.com/phoebejournal/docs/phoebe-47-1"
   type: poetry
   tags:
     - poetry
@@ -91,7 +131,6 @@ The Taste of Blood:
   tags:
     - poetry
 
-
 Blood Pressure:
   publisher: Sugar House Review
   date: 2016
@@ -113,7 +152,6 @@ Your Death Felt Like:
   tags:
     - poetry
 
-
 Discarded:
   publisher: Sheepshead Review
   date: "2016"
@@ -121,14 +159,12 @@ Discarded:
   tags:
     - poetry
 
-
 Baby:
   publisher: 32 Poems
   date: "2015"
   type: poetry
   tags:
     - poetry
-
 
 At the Country & Western Dance Hall:
   publisher: The Doctor T.J. Eckleburg Review
@@ -139,7 +175,6 @@ At the Country & Western Dance Hall:
   tags:
     - poetry
 
-
 Sturgeon Moon:
   publisher: The Rattling Wall 5
   date: "2015"
@@ -147,14 +182,12 @@ Sturgeon Moon:
   tags:
     - poetry
 
-
 Strawberry Moon:
   publisher: The Rattling Wall 5
   date: "2015"
   type: poetry
   tags:
     - poetry
-
 
 Pink Moon:
   publisher: The Rattling Wall 5
