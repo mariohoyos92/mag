@@ -1,3 +1,32 @@
+Bush:
+  publisher: Stirring
+  date: 2018
+  link: "https://www.stirringlit.com/202-bush-by-mag-gabbert"
+  type: poetry
+  tags:
+    - poetry
+
+Orangutan:
+  publisher: Animal: A Beast of a Lit Mag
+  date: 2018
+  type: poetry
+  tags:
+    - poetry
+
+Egg:
+  publisher: Anomaly Literary Journal
+  date: 2018
+  type: poetry
+  tags:
+    - poetry
+
+New Year:
+  publisher: Birmingham Poetry Review
+  date: 2019
+  type: poetry
+  tags:
+    - poetry
+
 Snow Globe:
   publisher: The Boiler Journal
   date: 2018
@@ -39,6 +68,7 @@ Fishbowl:
 Toilet:
   publisher: Guesthouse
   date: 2018
+  link: "https://www.guesthouselit.com/i2-gabbert-poetry"
   type: poetry
   tags:
     - poetry
@@ -46,6 +76,7 @@ Toilet:
 Birthday Cake:
   publisher: Guesthouse
   date: 2018
+  link: "https://www.guesthouselit.com/i2-gabbert-poetry"
   type: poetry
   tags:
     - poetry
