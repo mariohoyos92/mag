@@ -1,8 +1,8 @@
-'use strict';
+"use strict";
 
-global.rootPath = __dirname + '/';
+global.rootPath = __dirname + "/";
 
-require('dotenv').config();
+// require('dotenv').config();
 const Application = require(`${rootPath}lib/Application`);
 const app = new Application(rootPath, process.env.ENV);
 app.start();
