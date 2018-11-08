@@ -1,3 +1,10 @@
+Cat:
+  publisher: Crab Creek Review
+  date: 2018
+  type: poetry
+  tags:
+    - poetry
+
 Bush:
   publisher: Stirring
   date: 2018
@@ -9,6 +16,7 @@ Bush:
 Orangutan:
   publisher: "Animal: A Beast of a Lit Mag"
   date: 2018
+  link: "https://animalliterarymagazine.com/2018/10/07/poem-70/"
   type: poetry
   tags:
     - poetry
@@ -16,6 +24,7 @@ Orangutan:
 Egg:
   publisher: Anomaly Literary Journal
   date: 2018
+  link: "https://static1.squarespace.com/static/557d9defe4b085dc8e579076/t/5bc37a7a1905f4c1aca4fb6b/1539537573851/Anomaly+Literary+Journal+Issue+7.pdf"
   type: poetry
   tags:
     - poetry
