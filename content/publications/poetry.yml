@@ -1,3 +1,31 @@
+Five Minimal Poems:
+  publisher: The Hopkins Review
+  date: 2019
+  type: poetry
+  tags:
+    - poetry
+
+Dolphin:
+  publisher: Juked Magazine
+  date: 2019
+  type: poetry
+  tags:
+    - poetry
+
+Robin:
+  publisher: "Fiolet & Wing (Press Anthology)"
+  date: 2019
+  type: poetry
+  tags:
+    - poetry
+
+On the Anniversary of the Death of JFK:
+  publisher: LIT Magazine
+  date: 2019
+  type: poetry
+  tags:
+    - poetry
+
 Cat:
   publisher: Crab Creek Review
   date: 2018
@@ -90,13 +118,6 @@ Birthday Cake:
   tags:
     - poetry
 
-On the Anniversary of the Death of JFK:
-  publisher: LIT Magazine
-  date: 2018
-  type: poetry
-  tags:
-    - poetry
-
 Dark Matter:
   publisher: Carve Magazine
   date: 2017
@@ -144,13 +165,6 @@ Grief:
 
 Recovery:
   publisher: White Stag
-  date: 2017
-  type: poetry
-  tags:
-    - poetry
-
-Robin:
-  publisher: "Fiolet & Wing (Press Anthology)"
   date: 2017
   type: poetry
   tags:
