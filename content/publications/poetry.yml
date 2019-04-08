@@ -1,3 +1,10 @@
+Steam:
+  publisher: Thrush Poetry Journal
+  date: 2019
+  type: poetry
+  tags:
+    - poetry
+
 Five Minimal Poems:
   publisher: The Hopkins Review
   date: 2019
@@ -13,7 +20,7 @@ Dolphin:
     - poetry
 
 Robin:
-  publisher: "Fiolet & Wing (Press Anthology)"
+  publisher: "Fiolet & Wing (Fabulism Anthology)"
   date: 2019
   type: poetry
   tags:
