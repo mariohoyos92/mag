@@ -1,6 +1,41 @@
+Toothbrush:
+  publisher: Plath Poetry Project
+  date: 2020
+  type: poetry
+  tags:
+    - poetry
+
+Ship:
+  publisher: Redivider
+  date: 2019
+  type: poetry
+  tags:
+    - poetry
+
+Oyster:
+  publisher: Redivider
+  date: 2019
+  type: poetry
+  tags:
+    - poetry
+Bone:
+  publisher: Redivider
+  date: 2019
+  type: poetry
+  tags:
+    - poetry
+Bleach:
+  publisher: "Glass: A Journal of Poetry"
+  link: "http://www.glass-poetry.com/journal/2019/august/gabbert-bleach.html"
+  date: 2019
+  type: poetry
+  tags:
+    - poetry
+
 Steam:
   publisher: Thrush Poetry Journal
   date: 2019
+  link: "http://www.thrushpoetryjournal.com/may-2019-mag-gabbert.html"
   type: poetry
   tags:
     - poetry
@@ -15,6 +50,7 @@ Five Minimal Poems:
 Dolphin:
   publisher: Juked Magazine
   date: 2019
+  link: "http://www.juked.com/2019/05/mag-gabbert-dolphin.asp"
   type: poetry
   tags:
     - poetry
@@ -82,7 +118,7 @@ Snow Globe:
 Fever:
   publisher: Underblong
   date: 2018
-  link: "http://underblong.com/post/171577744902/fever-i-cannot-make-lunch-today-i-need-a"
+  link: "https://www.underblong.com/mag-gabbert"
   type: poetry
   tags:
     - poetry
@@ -90,7 +126,7 @@ Fever:
 Donut:
   publisher: Underblong
   date: 2018
-  link: "http://underblong.com/post/171577719507/donut-im-eating-one-again-even-though-i-hate"
+  link: "https://www.underblong.com/mag-gabbert"
   type: poetry
   tags:
     - poetry
