@@ -1,30 +1,113 @@
+Constellation:
+  title: Constellation
+  publisher: Waxwing
+  date: 2020
+  type: poetry
+  tags:
+    - poetry
+
+Gum:
+  title: Gum
+  publisher: The Cortland Review
+  date: 2020
+  type: poetry
+  tags:
+    - poetry
+
+Bathtub:
+  title: Bathtub
+  publisher: "Borderlands: Texas Poetry Review"
+  date: 2020
+  type: poetry
+  tags:
+    - poetry
+
+America:
+  title: America
+  publisher: American Literary Review
+  date: 2020
+  type: poetry
+  tags:
+    - poetry
+
+Rhinoceros:
+  title: Rhinoceros
+  publisher: Hobart
+  date: 2020
+  type: poetry
+  tags:
+    - poetry
+
+Bee:
+  title: Bee
+  publisher: Hobart
+  date: 2020
+  type: poetry
+  tags:
+    - poetry
+
 Toothbrush:
+  title: Toothbrush
   publisher: Plath Poetry Project
   date: 2020
   type: poetry
   tags:
     - poetry
 
+Five Minimal Poems 1:
+  title: Five Minimal Poems
+  publisher: "mutiny!"
+  link: "https://en.calameo.com/read/005639344c386051321a4"
+  date: 2019
+  type: poetry
+  tags:
+    - poetry    
+
+Solstice:
+  title: Solstice
+  publisher: "The Writers Garret’s Turn A Phrase"
+  link: "https://www.writersgarret.org/2019/12/13/maggabbert/"
+  date: 2019
+  type: poetry
+  tags:
+    - poetry    
+
+Your Sister’s Wedding:
+  title: Your Sister’s Wedding
+  publisher: "The Writers Garret’s Turn A Phrase"
+  link: "https://www.writersgarret.org/2019/12/13/maggabbert/"
+  date: 2019
+  type: poetry
+  tags:
+    - poetry    
+
 Ship:
+  title: Ship
   publisher: Redivider
+  link: "http://www.redividerjournal.com/2019/12/mag-gabbert-oyster/"
   date: 2019
   type: poetry
   tags:
     - poetry
 
 Oyster:
+  title: Oyster
   publisher: Redivider
+  link: "http://www.redividerjournal.com/2019/12/mag-gabbert-oyster/"
   date: 2019
   type: poetry
   tags:
     - poetry
 Bone:
+  title: Bone
   publisher: Redivider
+  link: "http://www.redividerjournal.com/2019/12/mag-gabbert-oyster/"
   date: 2019
   type: poetry
   tags:
     - poetry
 Bleach:
+  title: Bleach
   publisher: "Glass: A Journal of Poetry"
   link: "http://www.glass-poetry.com/journal/2019/august/gabbert-bleach.html"
   date: 2019
@@ -33,6 +116,7 @@ Bleach:
     - poetry
 
 Steam:
+  title: Steam
   publisher: Thrush Poetry Journal
   date: 2019
   link: "http://www.thrushpoetryjournal.com/may-2019-mag-gabbert.html"
@@ -41,6 +125,7 @@ Steam:
     - poetry
 
 Five Minimal Poems:
+  title: Five Minimal Poems
   publisher: The Hopkins Review
   date: 2019
   type: poetry
@@ -48,6 +133,7 @@ Five Minimal Poems:
     - poetry
 
 Dolphin:
+  title: Dolphin
   publisher: Juked Magazine
   date: 2019
   link: "http://www.juked.com/2019/05/mag-gabbert-dolphin.asp"
@@ -56,6 +142,7 @@ Dolphin:
     - poetry
 
 Robin:
+  title: Robin
   publisher: "Fiolet & Wing (Fabulism Anthology)"
   date: 2019
   type: poetry
@@ -63,6 +150,7 @@ Robin:
     - poetry
 
 On the Anniversary of the Death of JFK:
+  title: On the Anniversary of the Death of JFK
   publisher: LIT Magazine
   date: 2019
   type: poetry
@@ -70,6 +158,7 @@ On the Anniversary of the Death of JFK:
     - poetry
 
 Cat:
+  title: Cat
   publisher: Crab Creek Review
   date: 2018
   type: poetry
@@ -77,6 +166,7 @@ Cat:
     - poetry
 
 Bush:
+  title: Bush
   publisher: Stirring
   date: 2018
   link: "https://www.stirringlit.com/202-bush-by-mag-gabbert"
@@ -85,6 +175,7 @@ Bush:
     - poetry
 
 Orangutan:
+  title: Orangutan
   publisher: "Animal: A Beast of a Lit Mag"
   date: 2018
   link: "https://animalliterarymagazine.com/2018/10/07/poem-70/"
@@ -93,6 +184,7 @@ Orangutan:
     - poetry
 
 Egg:
+  title: Egg
   publisher: Anomaly Literary Journal
   date: 2018
   link: "https://static1.squarespace.com/static/557d9defe4b085dc8e579076/t/5bc37a7a1905f4c1aca4fb6b/1539537573851/Anomaly+Literary+Journal+Issue+7.pdf"
@@ -101,6 +193,7 @@ Egg:
     - poetry
 
 New Year:
+  title: New Year
   publisher: Birmingham Poetry Review
   date: 2019
   type: poetry
@@ -108,6 +201,7 @@ New Year:
     - poetry
 
 Snow Globe:
+  title: Snow Globe
   publisher: The Boiler Journal
   date: 2018
   link: "https://theboilerjournal.com/2018/02/27/mag-gabbert/"
@@ -116,6 +210,7 @@ Snow Globe:
     - poetry
 
 Fever:
+  title: Fever
   publisher: Underblong
   date: 2018
   link: "https://www.underblong.com/mag-gabbert"
@@ -124,6 +219,7 @@ Fever:
     - poetry
 
 Donut:
+  title: Donut
   publisher: Underblong
   date: 2018
   link: "https://www.underblong.com/mag-gabbert"
@@ -132,6 +228,7 @@ Donut:
     - poetry
 
 Rabbit Test:
+  title: Rabbit Test
   publisher: Whiskey Island
   date: 2018
   type: poetry
@@ -139,6 +236,7 @@ Rabbit Test:
     - poetry
 
 Fishbowl:
+  title: Fishbowl
   publisher: Whiskey Island
   date: 2018
   type: poetry
@@ -146,6 +244,7 @@ Fishbowl:
     - poetry
 
 Toilet:
+  title: Toilet
   publisher: Guesthouse
   date: 2018
   link: "https://www.guesthouselit.com/i2-gabbert-poetry"
@@ -154,6 +253,7 @@ Toilet:
     - poetry
 
 Birthday Cake:
+  title: Birthday Cake
   publisher: Guesthouse
   date: 2018
   link: "https://www.guesthouselit.com/i2-gabbert-poetry"
@@ -162,6 +262,7 @@ Birthday Cake:
     - poetry
 
 Dark Matter:
+  title: Dark Matter
   publisher: Carve Magazine
   date: 2017
   type: poetry
@@ -169,6 +270,7 @@ Dark Matter:
     - poetry
 
 Trouble Sleeping:
+  title: Trouble Sleeping
   publisher: phoebe
   date: 2017
   link: "https://issuu.com/phoebejournal/docs/phoebe-47-1"
@@ -177,6 +279,7 @@ Trouble Sleeping:
     - poetry
 
 Nightmare:
+  title: Nightmare
   publisher: phoebe
   date: 2017
   link: "https://issuu.com/phoebejournal/docs/phoebe-47-1"
@@ -185,6 +288,7 @@ Nightmare:
     - poetry
 
 David:
+  title: David
   publisher: 1932 Quarterly
   date: 2017
   type: poetry
@@ -192,6 +296,7 @@ David:
     - poetry
 
 Toucan:
+  title: Toucan
   publisher: Cleaver Magazine
   date: 2017
   type: poetry
@@ -200,6 +305,7 @@ Toucan:
     - poetry
 
 Grief:
+  title: Grief
   publisher: White Stag
   date: 2017
   type: poetry
@@ -207,6 +313,7 @@ Grief:
     - poetry
 
 Recovery:
+  title: Recovery
   publisher: White Stag
   date: 2017
   type: poetry
@@ -214,14 +321,16 @@ Recovery:
     - poetry
 
 Oxycodone:
+  title: Oxycodone
   publisher: Sugar House Review
   date: 2016
   type: poetry
-  link: "http://www.sugarhousereview.com/current-issue-sneak-peek"
+  link: "https://soundcloud.com/sugar-house-review/mag-gabbert-oxycodone"
   tags:
     - poetry
 
 The Taste of Blood:
+  title: The Taste of Blood
   publisher: Sugar House Review
   date: 2016
   type: poetry
@@ -229,6 +338,7 @@ The Taste of Blood:
     - poetry
 
 Blood Pressure:
+  title: Blood Pressure
   publisher: Sugar House Review
   date: 2016
   type: poetry
@@ -236,6 +346,7 @@ Blood Pressure:
     - poetry
 
 Death of a Pigeon:
+  title: Death of a Pigeon
   publisher: New Plains Review
   date: 2016
   type: poetry
@@ -243,6 +354,7 @@ Death of a Pigeon:
     - poetry
 
 Your Death Felt Like:
+  title: Your Death Felt Like
   publisher: Sonora Review
   date: 2016
   type: poetry
@@ -250,6 +362,7 @@ Your Death Felt Like:
     - poetry
 
 Discarded:
+  title: Discarded
   publisher: Sheepshead Review
   date: "2016"
   type: poetry
@@ -257,6 +370,7 @@ Discarded:
     - poetry
 
 Baby:
+  title: Baby
   publisher: 32 Poems
   date: "2015"
   type: poetry
@@ -264,15 +378,16 @@ Baby:
     - poetry
 
 At the Country & Western Dance Hall:
+  title: At the Country & Western Dance Hall
   publisher: The Doctor T.J. Eckleburg Review
   date: "2015"
   type: poetry
   source_type: web
-  link: "http://thedoctortjeckleburgreview.com/works/poetry/poetry-at-the-country-western-dance-hall/"
   tags:
     - poetry
 
 Sturgeon Moon:
+  title: Sturgeon Moon
   publisher: The Rattling Wall 5
   date: "2015"
   type: poetry
@@ -280,6 +395,7 @@ Sturgeon Moon:
     - poetry
 
 Strawberry Moon:
+  title: Strawberry Moon
   publisher: The Rattling Wall 5
   date: "2015"
   type: poetry
@@ -287,6 +403,7 @@ Strawberry Moon:
     - poetry
 
 Pink Moon:
+  title: Pink Moon
   publisher: The Rattling Wall 5
   date: "2015"
   type: poetry

@@ -21,9 +21,9 @@
             <tr>
               <td>
                 {{#if this.link}}
-                  <a href="{{this.link}}" rel="external nofollow" class="external external-icon">{{@key}}</a>
+                  <a href="{{this.link}}" rel="external nofollow" class="external external-icon">{{this.title}}</a>
                 {{else}}
-                  {{@key}}
+                  {{this.title}}
                 {{/if}}
               </td>
               <td>{{this.publisher}}</td>
