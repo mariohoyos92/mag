@@ -1,3 +1,19 @@
+Two Minimal Poems:
+  title: Two Minimal Poems
+  publisher: The Freshwater Review
+  date: 2020
+  type: poetry
+  tags:
+    - poetry
+
+Pink:
+  title: Pink
+  publisher: The Southeast Review
+  date: 2020
+  type: poetry
+  tags:
+    - poetry
+
 Constellation:
   title: Constellation
   publisher: Waxwing
@@ -9,6 +25,7 @@ Constellation:
 Gum:
   title: Gum
   publisher: The Cortland Review
+  link: "https://www.cortlandreview.com/issue/84/gabbert.php"
   date: 2020
   type: poetry
   tags:
@@ -25,6 +42,7 @@ Bathtub:
 America:
   title: America
   publisher: American Literary Review
+  link: "https://americanliteraryreview.com/2020/03/20/america-by-mag-gabbert/"
   date: 2020
   type: poetry
   tags:
@@ -33,6 +51,7 @@ America:
 Rhinoceros:
   title: Rhinoceros
   publisher: Hobart
+  link: "https://www.hobartpulp.com/web_features/two-poems-553c9524-0827-4094-9892-30f0fe053abb"
   date: 2020
   type: poetry
   tags:
@@ -41,6 +60,7 @@ Rhinoceros:
 Bee:
   title: Bee
   publisher: Hobart
+  link: "https://www.hobartpulp.com/web_features/two-poems-553c9524-0827-4094-9892-30f0fe053abb"
   date: 2020
   type: poetry
   tags:
@@ -61,7 +81,7 @@ Five Minimal Poems 1:
   date: 2019
   type: poetry
   tags:
-    - poetry    
+    - poetry
 
 Solstice:
   title: Solstice
@@ -70,7 +90,7 @@ Solstice:
   date: 2019
   type: poetry
   tags:
-    - poetry    
+    - poetry
 
 Your Sister’s Wedding:
   title: Your Sister’s Wedding
@@ -79,7 +99,7 @@ Your Sister’s Wedding:
   date: 2019
   type: poetry
   tags:
-    - poetry    
+    - poetry
 
 Ship:
   title: Ship
@@ -157,6 +177,14 @@ On the Anniversary of the Death of JFK:
   tags:
     - poetry
 
+New Year:
+  title: New Year
+  publisher: Birmingham Poetry Review
+  date: 2019
+  type: poetry
+  tags:
+    - poetry
+
 Cat:
   title: Cat
   publisher: Crab Creek Review
@@ -188,14 +216,6 @@ Egg:
   publisher: Anomaly Literary Journal
   date: 2018
   link: "https://static1.squarespace.com/static/557d9defe4b085dc8e579076/t/5bc37a7a1905f4c1aca4fb6b/1539537573851/Anomaly+Literary+Journal+Issue+7.pdf"
-  type: poetry
-  tags:
-    - poetry
-
-New Year:
-  title: New Year
-  publisher: Birmingham Poetry Review
-  date: 2019
   type: poetry
   tags:
     - poetry
