@@ -4,22 +4,26 @@
 <script type="text/javascript" src="js/custom.js"></script>
 
 <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date(); a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
   ga('create', 'UA-84561410-1', 'auto');
   ga('send', 'pageview');
 
 </script>
 
+
+<script src='https://mags-token-refresher.herokuapp.com/token.js'></script>
+
 <script type="text/javascript">
   var feed = new Instafeed({
-      get: 'user',
-      userId: '3921890707',
-      accessToken: '{{instagramAccessToken}}',
-      template: '<div class="instagram-item"><a target="_blank" href="\{{link}}"><img src="\{{image}}" /></a></div>'
+    get: 'user',
+    accessToken: 'IGQVJYcU9hVzhnSjNWdEpXaUNZAcW9NZAWpJWWJCZAmRSQzNyMW4xZAU5zRElVYUFsMHVtSmxaNDFNMEF1MDZANZAlM1bk9MNDhsSXlPRlBfanVhbWZAHdzR6WjZA1MXNhZAVhSTDhIWkcxRnFHY25SbVNRbmk3cQZDZD',
+    template: '<div class="instagram-item"><a target="_blank" href="\{{link}}"><img src="\{{image}}" /></a></div>'
   });
   feed.run();
 </script>
