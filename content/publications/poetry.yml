@@ -1,3 +1,32 @@
+Bat:
+  title: Bat
+  publisher: Pleiades
+  date: 2021
+  type: poetry
+  tags:
+    - poetry
+Ghost:
+  title: Ghost
+  publisher: The Pinch
+  date: 2020
+  type: poetry
+  tags:
+    - poetry
+Wight:
+  title: Wight
+  publisher: Hobart
+  date: 2020
+  type: poetry
+  tags:
+    - poetry
+Lace:
+  title: Lace
+  publisher: Sixth Finch
+  link: "http://sixthfinch.com/gabbert1.html"
+  date: 2020
+  type: poetry
+  tags:
+    - poetry
 Two Minimal Poems:
   title: Two Minimal Poems
   publisher: The Freshwater Review
@@ -17,6 +46,7 @@ Pink:
 Constellation:
   title: Constellation
   publisher: Waxwing
+  link: "http://waxwingmag.org/items/issue21/13_Gabbert-Constellation.php"
   date: 2020
   type: poetry
   tags:
