@@ -17,6 +17,7 @@ Wight:
   publisher: Hobart
   date: 2020
   type: poetry
+  link: https://www.hobartpulp.com/web_features/wight
   tags:
     - poetry
 Lace:
@@ -100,6 +101,7 @@ Toothbrush:
   title: Toothbrush
   publisher: Plath Poetry Project
   date: 2020
+  link: https://plathpoetryproject.com/jan-feb-retro-20-alljan/
   type: poetry
   tags:
     - poetry
