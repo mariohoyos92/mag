@@ -4,9 +4,9 @@
     {{> page-header title="Publications" backgroundUrl="/images/mag-gabbert-publications.jpg"}}
 
     <div class="post-content inner">
-      
+
       <h3 id="poems">Poems</h3>
-      
+
       <table class="standard-table">
         <thead>
           <tr>
@@ -18,17 +18,17 @@
         <tbody>
 
           {{#each poems}}
-            <tr>
-              <td>
-                {{#if this.link}}
-                  <a href="{{this.link}}" rel="external nofollow" class="external external-icon">{{this.title}}</a>
-                {{else}}
-                  {{this.title}}
-                {{/if}}
-              </td>
-              <td>{{this.publisher}}</td>
-              <td>{{this.date}}</td>
-            </tr>
+          <tr>
+            <td>
+              {{#if this.link}}
+              <a href="{{this.link}}" rel="external nofollow" class="external external-icon">{{this.title}}</a>
+              {{else}}
+              {{this.title}}
+              {{/if}}
+            </td>
+            <td>{{this.publisher}}</td>
+            <td>{{this.date}}</td>
+          </tr>
           {{/each}}
 
         </tbody>
@@ -37,7 +37,7 @@
       <br>
 
       <h3 id="essays">Creative Nonfiction Essays</h3>
-      
+
       <table class="standard-table">
         <thead>
           <tr>
@@ -49,17 +49,17 @@
         <tbody>
 
           {{#each essays}}
-            <tr>
-              <td>
-                {{#if this.link}}
-                  <a href="{{this.link}}" rel="external nofollow" class="external external-icon">{{@key}}</a>
-                {{else}}
-                  {{@key}}
-                {{/if}}
-              </td>
-              <td>{{this.publisher}}</td>
-              <td>{{this.date}}</td>
-            </tr>
+          <tr>
+            <td>
+              {{#if this.link}}
+              <a href="{{this.link}}" rel="external nofollow" class="external external-icon">{{@key}}</a>
+              {{else}}
+              {{@key}}
+              {{/if}}
+            </td>
+            <td>{{this.publisher}}</td>
+            <td>{{this.date}}</td>
+          </tr>
           {{/each}}
 
         </tbody>
@@ -68,7 +68,7 @@
       <br>
 
       <h3 id="reviews">Reviews</h3>
-      
+
       <table class="standard-table">
         <thead>
           <tr>
@@ -80,17 +80,17 @@
         <tbody>
 
           {{#each reviews}}
-            <tr>
-              <td>
-                {{#if this.link}}
-                  <a href="{{this.link}}" rel="external nofollow" class="external external-icon">{{@key}}</a>
-                {{else}}
-                  {{@key}}
-                {{/if}}
-              </td>
-              <td>{{this.publisher}}</td>
-              <td>{{this.date}}</td>
-            </tr>
+          <tr>
+            <td>
+              {{#if this.link}}
+              <a href="{{this.link}}" rel="external nofollow" class="external external-icon">{{@key}}</a>
+              {{else}}
+              {{@key}}
+              {{/if}}
+            </td>
+            <td>{{this.publisher}}</td>
+            <td>{{this.date}}</td>
+          </tr>
           {{/each}}
 
         </tbody>
@@ -99,7 +99,7 @@
       <br>
 
       <h3 id="teaching_experience">Interviews</h3>
-      
+
       <table class="standard-table">
         <thead>
           <tr>
@@ -111,17 +111,17 @@
         <tbody>
 
           {{#each interviews}}
-              <tr>
-                <td>
-                  {{#if this.link}}
-                    <a href="{{this.link}}" rel="external nofollow" class="external external-icon">{{@key}}</a>
-                  {{else}}
-                    {{@key}}
-                  {{/if}}
-                </td>
-                <td>{{this.producer}}</td>
-                <td>{{this.date}}</td>
-              </tr>
+          <tr>
+            <td>
+              {{#if this.link}}
+              <a href="{{this.link}}" rel="external nofollow" class="external external-icon">{{@key}}</a>
+              {{else}}
+              {{@key}}
+              {{/if}}
+            </td>
+            <td>{{this.producer}}</td>
+            <td>{{this.date}}</td>
+          </tr>
           {{/each}}
 
         </tbody>
